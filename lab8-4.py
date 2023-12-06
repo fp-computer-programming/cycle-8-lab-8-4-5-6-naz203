@@ -24,3 +24,16 @@ A palindrome is a word that is spelled the same forwards and backwards.
 
 
 """
+def count_a(word):
+    # Initialize a counter for 'a's
+    a_count = 0
+    
+    # Iterate through each character in the word
+    for char in word:
+        # Check if the character is 'a' or 'A' and increment the counter
+        if char == 'a' or char == 'A':
+            a_count += 1
+            
+    # Return the final count of 'a's
+    return a_count
+# Author: Nazeer thompson

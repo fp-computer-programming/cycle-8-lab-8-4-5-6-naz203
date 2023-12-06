@@ -1,0 +1,8 @@
+def is_palindrome(word):
+    # Compare the original word with its reverse
+    return word == word[::-1]
+
+
+# Author: Nazeer thompson 
+
+

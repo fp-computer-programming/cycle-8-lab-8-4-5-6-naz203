@@ -1,0 +1,21 @@
+#nazeer thompson 
+def factorial(num):
+    # Check if the input is zero, return 1 as the factorial of 0 is 1
+    if num == 0:
+        return 1
+    
+    # Initialize the product variable
+    product = 1
+    
+    # Iterate from 1 to num (inclusive) and calculate the product
+    for i in range(1, num + 1):
+        product *= i
+        
+    # Return the final product
+    return product
+
+
+
+
+
+
